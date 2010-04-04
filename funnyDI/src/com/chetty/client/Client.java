@@ -15,7 +15,7 @@ public class Client {
 	}
 	
 	public void doSomething() {
-		service.serve();
+		service.doSomething();
 		newService.doSomethingNew();
 	}
 }
