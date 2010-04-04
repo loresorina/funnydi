@@ -1,7 +1,6 @@
 package com.chetty.module;
 
-import java.util.HashMap;
-
-public interface IModule<T> {
-	abstract HashMap<Class, Class> configure();
+public interface IModule {
+	void configure();
+	<T> Class<? extends T> getMapping(Class<T> type);
 }
