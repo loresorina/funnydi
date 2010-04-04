@@ -2,7 +2,7 @@ package com.chetty.service;
 
 public class ServiceImpl2 implements Service {
 	@Override
-	public void serve() {
-		System.out.println("In ServiceImpl2");		
+	public void doSomething() {
+		System.out.println("I'm doing something in ServiceImpl2");		
 	}
 }
